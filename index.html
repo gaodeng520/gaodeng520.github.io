@@ -1,55 +1,160 @@
-<html>
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<audio src="https://dreamynight.coding.net/p/main/d/core/git/raw/master/alarm.mp3" hidden="false" autoplay="true" loop="true"></audio>
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    
-    <meta name="full-screen" content="yes">
-   
-    <meta name="browsermode" content="application">
-    
-    <meta name="x5-fullscreen" content="true">
-  
-    <meta name="x5-page-mode" content="app">
-    
-    <meta content="yes" name="apple-mobile-web-app-capable">
-    
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <title>太極 - 小巧的pvz2修改工具</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        body{
+            background: url(https://gaodeng520.github.io/Screenshot_20220810_160939_edit_1099027497852300.jpg) no-repeat 0 0;
+            background-size: 100% 100%;
+        }
+        .page{
+            padding-top: 135px;
+        }
+        .tit{
+            width: 240px;
+            height: 46px;
+            margin: 0 auto 0 auto;
+            border: 2px solid #8c4e10;
+            border-radius: 46px;
+        }
+        .tit .inside{
+            position: relative;
+            background-color: #8c4e10;
+            width: 232px;
+            height: 40px;
+            border-radius: 40px;
+            margin-top: 3px;
+            margin-left: 4px;
+            color: #faf9f3;
+            font-size: 18px;
+            text-indent: 20px;
+            line-height: 40px;
+            font-weight: bold;
+        }
+        .tit .inside::before{
+            position: absolute;
+            left: 13px;
+            top: 16px;
+            content: '';
+            display: block;
+            width: 8px;
+            height: 8px;
+            border-radius: 8px;
+            background-color: #faf9f3;
+        }
+        .tit .inside::after{
+            position: absolute;
+            right: 13px;
+            top: 16px;
+            content: '';
+            display: block;
+            width: 8px;
+            height: 8px;
+            border-radius: 8px;
+            background-color: #faf9f3;
+        }
+        .desc{
+            font-size: 16px;
+            text-align: center;
+            color: #8c4e10;
+            font-weight: bold;
+            margin: 30px 0 20px 0;
+        }
+        .list{
+            font-size: 16px;
+            color: #8c4e10;
+            margin: 0 auto;
+            width: 190px;
+        }
+        .logo{
+            background: url(https://gaodeng520.github.io/ic_launcher.png) no-repeat 0 0;
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+            margin: 30px auto;
+        }
+        .title{
+            font-size: 0;
+            background: url(https://static-www.mini1.cn/manage/assets/images/download/title.png) no-repeat 0 0;
+            width: 210px;
+            height: 36px;
+            background-size: contain;
+            margin: 0 auto;
+        }
+        .download-btn {
+            display: block;
+            background-color: #8c4e10;
+            color: #ffffff;
+            font-size: 16px;
+            width: 120px;
+            height: 36px;
+            line-height: 36px;
+            text-align: center;
+            margin: 30px auto;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7d309bb26ecba6edce1bb99a3d7e7bf0";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+    })();
+    </script>              
 </head>
-<style>
-	a{color: darkcyan;text-decoration: none;}
-	.ddd{width: 5em;height: 3em;color: white;background: darkcyan;padding: 0.5em;border-radius: 0.3em;box-shadow: 3px 3px 10px #ccc;}
-</style>
-<body style="background: whitesmoke;color: white;font-family: &#x27;微软雅黑&#x27;;">
-<center style="width: 96%;background: white;margin: auto;margin-top: 1em;padding:1em 0 2em 0;color: darkcyan;">
-<h1>网页提示+<br>记得把声音开大噢</h1>
-<img src="https://dreamynight.coding.net/p/main/d/core/git/raw/master/blood.jpg" width="230" height="320" alt><br><br>
-</center>
-<script>   
-function MyAutoRun()
-　　{  
-　　	confirm("惊不惊喜，意不意外！赶快分享给基友或者仇人整他一下！")
-　　	 　 confirm("惊不惊喜，意不意外！赶快分享给基友或者仇人整他一下！")
-　　	
- 　  if (confirm("惊不惊喜，意不意外！赶快分享给基友或者仇人整他一下！")) {
-    location = "https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d3142044464";
-  }else{location = "https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d3142044464";}
-  
-　　}
-　　window.onload=setTimeout("MyAutoRun(); ",2000);
-</script>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?a3a5e1307aa95818f0fcc2962857be86";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
+<body>
+    <div class="page">
+        <div class="tit">
+            <div class="inside">《太極1.9.0无需库》apk下载</div>
+        </div>
+        <!-- <div class="desc">下载《太極1.9.0无需库》apk只差一步啦！</div>
+         <ul class="list">
+             <li>点击右上角菜单<img src="" alt=""></li>
+            <li>选择 “在浏览器中打开”</li>
+        </ul> -->
+        <div class="logo"></div>
+        <div class="title">《太極1.9.0无需库》apk</div>
+        <button type="button" id="downloadBtn" class="download-btn">立即下载</button>
+    </div>
+    <script>
+        function download() {
+            var ua = navigator.userAgent;
+            var platform = {
+                isAndorid: /Android/ig.test(ua),
+                isiOS: /iPhone|iPad|iPod/ig.test(ua),
+            };
+            if(platform.isiOS) {
+                window.location.href = 'https://gaodeng520.github.io/taiji_1.9.0nolibrary.apk';
+            } else if (platform.isAndorid) {
+                window.location.href = 'https://gaodeng520.github.io/taiji_1.9.0nolibrary.apk';
+                // window.location.href = 'https://gaodeng520.github.io/taiji_1.9.0nolibrary.apk';
+            } else {
+                window.location.href = 'https://gaodeng520.github.io/taiji_1.9.0nolibrary.apk';
+            }
+        }
+        var downloadBtn = document.getElementById('downloadBtn');
+        downloadBtn.addEventListener('click', function() {
+          download()
+        }, false);
+    </script>
 </body>
 </html>
